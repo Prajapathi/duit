@@ -23,10 +23,10 @@ const addShow = (ott, show) => {
     const series = document.createElement('div');
 
     const showname = document.createElement('h3');
-    ottname.appendChild(document.createTextNode(show))
+    showname.appendChild(document.createTextNode(show))
 
     const ottname = document.createElement('p');
-    showname.appendChild(document.createTextNode(ott));
+    ottname.appendChild(document.createTextNode(ott));
 
     series.appendChild(showname)
     series.appendChild(ottname);
