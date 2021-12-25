@@ -22,14 +22,14 @@ const addShow = (ott, show) => {
 
     const series = document.createElement('div');
 
-    const ottname = document.createElement('h3');
-    ottname.appendChild(document.createTextNode(ott))
+    const showname = document.createElement('h3');
+    ottname.appendChild(document.createTextNode(show))
 
-    const showname = document.createElement('p');
-    showname.appendChild(document.createTextNode(show));
+    const ottname = document.createElement('p');
+    showname.appendChild(document.createTextNode(ott));
 
-    series.appendChild(ottname);
     series.appendChild(showname)
+    series.appendChild(ottname);
 
     const deleteButton = document.createElement('button');
     deleteButton.classList.add('delete');
